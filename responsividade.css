@@ -1,0 +1,79 @@
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 3.5rem; 
+    }
+    
+    nav ul, .menu {
+        gap: 20px; 
+    }
+    
+    section h2, .categorias-destaque h2 {
+        font-size: 3.2rem;
+    }
+}
+@media (max-width: 768px) {
+    
+    header {
+        padding: 4rem 1rem 2rem 1rem;
+    }
+    
+    header h1 {
+        font-size: 2.8rem; 
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    nav ul, .menu {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .banner {
+        min-height: 40vh;
+        margin-bottom: 2.5rem;
+    }
+
+    section {
+        margin-bottom: 3.5rem;
+    }
+
+    section h2, .categorias-destaque h2 {
+        font-size: 2.5rem;
+    }
+    
+    section h2::after, .categorias-destaque h2::after {
+        width: 120px;
+    }
+    
+    .introducao-catalogo p, .categorias-destaque p {
+        font-size: 0.95rem;
+        margin-bottom: 2.5rem;
+        padding: 0 10px;
+    }
+    .produto, .categorias-destaque article {
+        padding: 15px;
+    }
+
+    .produto img {
+        margin-bottom: 15px;
+    }
+
+    form fieldset {
+        padding: 20px 15px;
+    }
+    
+    form legend {
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2.3rem; 
+    }
+    #moletom, #pijamas, #infantil, #acessorios, #festas, .categorias-destaque {
+        grid-template-columns: 1fr; 
+    }
+}
