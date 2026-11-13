@@ -10,7 +10,7 @@ INTEGRANTES:
 LINKS:
 Site (GitHub Pages): https://biamodesto10.github.io/encanto-de-natal/
 Repositório (GitHub): https://github.com/biamodesto10/encanto-de-natal
-Vídeo (YouTube): https://www.youtube.com/watch?v=...
+Vídeo (YouTube): https://youtu.be/PB1e_3diq_M
 RECURSOS DE JAVASCRIPT IMPLEMENTADOS (mínimo de 8):
 1. Slideshow - index.html
 2. Parallax - index.html
